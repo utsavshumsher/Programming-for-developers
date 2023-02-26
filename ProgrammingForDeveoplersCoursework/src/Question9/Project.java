@@ -1,4 +1,4 @@
-package GUI_Question9;
+package Question9;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

@@ -1,4 +1,4 @@
-package GUI_Question9;
+package Question9;
 
 import javax.swing.*;
 import java.awt.*;
@@ -48,7 +48,7 @@ public class Scheduling_Job extends JFrame {
                 Connection connection = null;
 
                 try{
-                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dsa-assignment", "root", "roshan09876");
+                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ProgrammingForDevelopersCW", "root", "2060utsav@");
                     System.out.println("Connection Successful");
 
                     String jobName = jTextField1.getText();

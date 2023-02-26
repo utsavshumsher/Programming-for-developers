@@ -1,4 +1,4 @@
-package GUI_Question9;
+package Question9;
 
 import javax.swing.*;
 import java.awt.*;
@@ -65,7 +65,7 @@ public class Add_Task extends JFrame {
                 // Start Connection in Sql Database
                 Connection connection = null;
                 try {
-                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dsa-assignment", "root", "roshan09876");
+                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ProgrammingForDevelopersCW", "root", "2060utsav@");
 
                     System.out.println("Connection Successful");
 

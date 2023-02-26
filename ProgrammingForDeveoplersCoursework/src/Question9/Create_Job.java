@@ -1,4 +1,4 @@
-package GUI_Question9;
+package Question9;
 
 import java.awt.Font;
 import java.awt.GridBagConstraints;
@@ -74,7 +74,7 @@ public class Create_Job extends JFrame {
                 Connection connection = null;
 
                 try {
-                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dsa-assignment","root","roshan09876");
+                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ProgrammingForDevelopersCW","root","2060utsav@");
                     System.out.println("Connection Successful");
 
                 }catch (SQLException sqlException){
